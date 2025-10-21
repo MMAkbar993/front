@@ -171,7 +171,8 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl shadow-soft p-6 text-center border border-gray-100 hover:shadow-medium transition-all duration-300">
               <div className="w-24 h-24 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-soft">
-                <span className="text-white text-2xl font-bold">DR</span>
+                {/* <span className="text-white text-2xl font-bold">DR</span> */}
+                <img src="02.jpg" alt="Chairman" className="w-24 h-24 rounded-full" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Muhammad Ashfaq Bokhari</h3>
               <p className="text-primary-600 font-medium mb-3">CHAIRMAN BOARD OF GOVERNER'S</p>
@@ -182,7 +183,8 @@ const AboutPage = () => {
 
             <div className="bg-white rounded-2xl shadow-soft p-6 text-center border border-gray-100 hover:shadow-medium transition-all duration-300">
               <div className="w-24 h-24 bg-gradient-to-br from-secondary-500 to-secondary-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-soft">
-                <span className="text-white text-2xl font-bold">PK</span>
+                {/* <span className="text-white text-2xl font-bold">PK</span> */}
+                <img src="01.jpg" alt="Chief Executive" className="w-24 h-24 rounded-full" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Khawaja Thair Abbas</h3>
               <p className="text-secondary-600 font-medium mb-3">CHIEF EXECUTIVE'S</p>
@@ -193,7 +195,9 @@ const AboutPage = () => {
 
             <div className="bg-white rounded-2xl shadow-soft p-6 text-center border border-gray-100 hover:shadow-medium transition-all duration-300">
               <div className="w-24 h-24 bg-gradient-to-br from-accent-500 to-accent-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-soft">
-                <span className="text-white text-2xl font-bold">AF</span>
+                {/* <span className="text-white text-2xl font-bold">AF</span> */}
+                <img src="PRINCIPAL.jpeg" alt="Principal" className="w-24 h-24 rounded-full" />
+                
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Shahjahan Laghari</h3>
               <p className="text-accent-600 font-medium mb-3">PRINCIPAL</p>
